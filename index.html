@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GifTastic</title>
+  <style type="text/css">
+    button,
+    div,
+    form,
+    input {
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+    <!--buttons area-->
+<div id="feelingBtn">
+  <button class= "feeling-button" value="happy">happy</button>
+  <button class= "feeling-button" value= "excited">excited</button>
+  <button class= "feeling-button" value="sad">sad</button>
+  <button class= "feeling-button" value="angry">angry</button>
+  <!--form area-->
+ 
+  <form id="feeling-add-input">
+    <label for="feeling-input">Add emotional gifs here:</label>
+    <input type="text" id="feeling-input"><br>
+
+    <!-- Button triggers new gif to be added -->
+    <input id="addFeeling" type="submit" value="Click here to add">
+  </form>
+  <div id="gifs-appear-here">
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   
+ <script src="Javascript/app.js"></script>
+</body>
+
+</html>
