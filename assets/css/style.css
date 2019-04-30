@@ -1,0 +1,16 @@
+/* styling to center buttons and images to page*/
+button, div, form, input {
+    margin: 10px;
+}
+button {
+    text-transform: capitalize;
+}
+#gifs-appear-here {
+    text-align: center;
+}
+.giff-wrap {
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+}
